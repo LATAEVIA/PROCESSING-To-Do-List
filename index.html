@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+   <div class="container">
+     <h1>To Do List</h1>
+
+     <div class="row">
+       <div class="col-md-12">
+         <h2>Add an item to your list:</h2>
+         <form id="list-items">
+           <!-- Locations -->
+           <div class="form-group">
+             <label for="new-title">Title:</label>
+             <input type="text" class="form-control" id="new-title">
+           </div>
+            <!-- Details -->
+           <div class="form-group">
+             <label for="new-details">Details:</label>
+             <input type="text" class="form-control" id="new-details">
+           </div>
+            <!-- Date -->
+           <div class="form-group">
+             <label for="new-date">Date:</label>
+             <input type="text" class="form-control" id="new-date">
+           </div>
+
+           <button type="submit" class="btn">Add</button>
+         </form>
+       </div>
+     </div>
+     <!-- listings -->
+     <div class="row">
+       <div class="col-md-6">
+         <h2>List</h2>
+         <ul id="listings">
+         </ul>
+       </div>
+       <!-- Completed listings -->
+       <div class="col-md-6">
+        <div id="show-list">
+          <h2>Completed Tasks</h2>
+          <ul id="completed">
+            <span class="compTitle"></span>
+            <span class="compDetails"></span>
+            <span class="compDate"></span>
+          </ul>
+        </div>
+      </div>
+
+     </div>
+   </div>
+ </body>
+</html>
