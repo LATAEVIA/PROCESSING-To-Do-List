@@ -1,6 +1,3 @@
-# PROCESSING-To-Do-List
-website that allows user to input items to a to-do list and lets them look at the list and check items off
-
 # _To Do List_
 
 #### _An exercise to practice creating and manipulating objects., 04/05/2016_
